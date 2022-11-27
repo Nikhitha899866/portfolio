@@ -32,4 +32,12 @@ html,body{
         width: 200px !important;
         margin: 0 auto !important;
     }
+
+    .icons{
+        width:25px !important;
+        height:25px !important;
+    }
+    .footer{
+        width:50%;
+    }
   }
