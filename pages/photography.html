@@ -9,9 +9,8 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <script src="https://kit.fontawesome.com/c9d52e2cdd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="shortcut icon" href="../images/favicon.ico">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
         </script>
@@ -21,13 +20,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
         </script>
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="images/logo.png" class="w-50" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="../images/logo.png" class="w-50" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -50,7 +50,71 @@
             </div>
         </div>
     </nav>
-  
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+              <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                <div class="position-sticky pt-3 sidebar-sticky">
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">
+                        <span data-feather="home" class="align-text-bottom"></span>
+                        Dashboard
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="file" class="align-text-bottom"></span>
+                        Orders
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="shopping-cart" class="align-text-bottom"></span>
+                        Products
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="users" class="align-text-bottom"></span>
+                        Customers
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="bar-chart-2" class="align-text-bottom"></span>
+                        Reports
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="layers" class="align-text-bottom"></span>
+                        Integrations
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+          
+              <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                  <h1 class="h2">Dashboard</h1>
+                </div>
+              </main>
+            </div>
+          </div>
+        <div id="contact" class="footer mx-auto p-4">
+            <div class="fw-bold fs-4 my-2">Contact Me</div>
+            <div class="d-flex flex-row justify-content-between my-4">
+                <a href="https://www.linkedin.com/in/nikhitha-madineni-76a2341b3"><img src="../images/linkedin.png" class="icons" alt="" srcset=""></a>
+                <a href="tel:+353 899866993"><img src="../images/phone.png" class="icons" alt="" srcset=""></a>
+                <a href="mailto:nikhithamadineni2000@gmail.com"><img src="../images/gmail.png" class="icons" alt="" srcset=""></a>
+            </div>
+            <div class="fw-light my-2">Handcrafted by Nikhitha Madineni ©2022</div>
+        </div>
+
+    </main>
+
 </body>
 
 </html>

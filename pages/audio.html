@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" class="w-50" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="files/Resume.pdf">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                    <div class="position-sticky pt-3 sidebar-sticky">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">
+                                    <span data-feather="home" class="align-text-bottom"></span>
+                                    Sound Story
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#process">
+                                    <span data-feather="file" class="align-text-bottom"></span>
+                                    Processing of Audio Effects
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#des">
+                                    <span data-feather="shopping-cart" class="align-text-bottom"></span>
+                                    Description of Audio Editing Process
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                    <div class="d-flex flex-column justify-content-between my-4 ">
+                        <h2 class="h3 my-4">Sound Story</h2>
+                        <div>In a crowded bar, a man and his friends are drinking and laughing. The man wants
+                            to leave, and he says, "See you later." Another person in the group says, "Bye,"
+                            but in a funny voice, which makes everyone laugh again. This person leaves the
+                            place and whistles as he walks to his car. He opens the door to his car and after
+                            sitting he close the door. He is drunk and didn't put his seat belt on before
+                            starting the car . After he starts the car, his phone rings, and he observes it
+                            instead of at the road. This causes the car to skid first and due to hand break fails
+                            the car crashes. People near by rush to help him because the person got hurt
+                            and moaning on the inside. Right away, the police and an ambulance arrive. The
+                            person will have a hard time breathing, and they will take him into ambulance and
+                            starts minor treatment , but his heartbeat rises up, and he cant able to breath
+                            and respond to treatment, the ECG monitor sounds that the heart beat has been
+                            stoped and he passes away in the ambulance itself. </div>
+                    </div>
+                    <div class="d-flex flex-column justify-content-between my-4 ">
+                        <h2 class="h4 my-4">Audio File</h2>
+                        <audio controls autoplay>
+                            <source src="../files/audio_sound.mp3" type="audio/mpeg">
+                          </audio>
+                    </div>
+                    <div id="process" class="d-flex flex-column justify-content-between my-4 ">
+                        <h2 class="h4 my-4">Processing of Audio Effects :</h2>
+                        <ol class="list-group list-group-numbered">
+                            <li class="list-group-item">
+                                First music > cropped and generated silent for remaining music > Applied Fade
+                                in & Fade out > kept in separate channel.
+                            </li>
+                            <li class="list-group-item">
+                                Cropped and merged restaurant sounds > fade in > fade out > envelop affect
+                                applied in middle > Arranged in different channels.
+                            </li>
+                            <li class="list-group-item">
+                                Increased and decreased volume > Particularly in different channels> Trim
+                                outside selection > volume adjustments > copy and paste to separate channel.
+                            </li>
+                            <li class="list-group-item">
+                                Most of the Sounds merged > Generated Silence > Pitch Adjustments > Noise
+                                Reduction > Arranged in Channels.
+                            </li>
+                        </ol>
+                    </div>
+
+
+                    <div id="des" class="d-flex flex-column justify-content-between my-4 ">
+                        <h2 class="h4 my-4">Description of Audio Editing Process :</h2>
+                        <ol class="list-group list-group-numbered">
+                            <li class="list-group-item">
+                                First, I picked some happy music, cut out the part I wanted, and added
+                                fade-in and fade-out effects to the beginning and end.
+
+                            </li>
+                            <li class="list-group-item">
+                                Once I've gotten all the sounds I need for a bar, like the sound of a bottle being
+                                opened, people laughing, the sound of drinking alcohol, and some background
+                                laughter, I'll placed them in and arranged all together.
+                            </li>
+                            <li class="list-group-item">
+                                I kept them on three separate channels and set them up so that they sound
+                                good together.I applied silence for unrequired sound to stop when it wasn't
+                                needed, added pitch and tempo effects, and changed them as needed.
+                            </li>
+                            <li class="list-group-item">
+                                Again, I've recorded & collected some different sounds, such as a person
+                                walking and whistling, a car door opening and closing, a ringtone, and a hand
+                                break.
+                            </li>
+                            <li class="list-group-item">
+                                I also put this in different channels and took out some sounds I didn't
+                                like, merged them together, and used the envelop tool, which is needed
+                                for some high-rise sounds.
+                            </li>
+                            <li class="list-group-item">
+                                The rest of the car crash sounds have been edited and mixed together,
+                                and the sounds of the ambulance and heartbeat have been put on
+                                different channels,to show the different modules of sound given
+                                different effects, and changed the audio settings.
+                            </li>
+                            <li class="list-group-item">
+                                Finally, I went through all of the sounds and made different changes
+                                to them. I also moved some sounds to different channels, where I
+                                edited the sound modes to make the left and right sounds louder and
+                                quieter, and added the necessary effects.
+                            </li>
+                            
+                        </ol>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <footer id="contact" class="footer mx-auto p-4">
+            <div class="fw-bold fs-4 my-2">Contact Me</div>
+            <div class="d-flex flex-row justify-content-between my-4">
+                <a href="https://www.linkedin.com/in/nikhitha-madineni-76a2341b3"><img src="../images/linkedin.png"
+                        class="icons" alt="" srcset=""></a>
+                <a href="tel:+353 899866993"><img src="../images/phone.png" class="icons" alt="" srcset=""></a>
+                <a href="mailto:nikhithamadineni2000@gmail.com"><img src="../images/gmail.png" class="icons" alt=""
+                        srcset=""></a>
+            </div>
+            <div class="fw-light my-2">Handcrafted by Nikhitha Madineni ©2022</div>
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
