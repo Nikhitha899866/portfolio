@@ -70,8 +70,10 @@ body {
     height: 250px
 }
 
-
-
+.photography-pics {
+    width: 500px;
+    height: 150px
+}
 
 @media (max-width: 950px) {
 
@@ -92,5 +94,14 @@ body {
 
     .home-para {
         font-size: 12px !important
+    }
+
+    .photography-pics{
+        width: 300px;
+        height: 100px
+    }
+
+    .logo-pic{
+        width: 35% !important;
     }
 }
