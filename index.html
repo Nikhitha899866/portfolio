@@ -20,11 +20,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
         </script>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
 
 <body>
+    <button onclick="goToTop()" id="myBtn" title="Go to top">
+        <img width="20px" height="20px" src="images/up-arrow.svg" alt="" srcset="">
+    </button>
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="images/logo.png" class="w-50 logo-pic" alt=""></a>
@@ -51,7 +54,7 @@
         </div>
     </nav>
     <main>
-        <section class="py-5 text-center container">
+        <!-- <section class="py-5 text-center container">
             <div class="d-flex flex-column flex-md-row justify-content-between py-lg-5">
                 <div class="col-lg-6 col-md-8">
                     <h1 class="fw-semibold">Hello, I am Nikhitha Madineni</h1>
@@ -59,7 +62,9 @@
                 </div>
                 <img class="home-image" src="images/home-pic.png" alt="" srcset="">
             </div>
-        </section>
+            
+        </section> -->
+        <img class="main-gif p-2" src="gifs/gifs/front.gif" alt="" srcset="">
 
         <div id="portfolio" class="album py-5 bg-light">
             <div class="container">
@@ -67,13 +72,15 @@
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="gifs/gifs/3.gif">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                src="gifs/gifs/3.gif">
                             <div class="card-body">
                                 <h5 class="card-title">Photography</h5>
                                 <p class="card-text"></p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <a href="pages/photography.html"><button type="button" class="btn btn-sm btn-outline-success">View</button></a>
+                                        <a href="pages/photography.html"><button type="button"
+                                                class="btn btn-sm btn-outline-success">View</button></a>
                                     </div>
                                 </div>
                             </div>
@@ -81,13 +88,15 @@
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./gifs/gifs/1.gif">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                src="./gifs/gifs/1.gif">
                             <div class="card-body">
                                 <h5 class="card-title">Audio Story</h5>
                                 <p class="card-text"></p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <a href="pages/audio.html"><button type="button" class="btn btn-sm btn-outline-success">View</button></a>
+                                        <a href="pages/audio.html"><button type="button"
+                                                class="btn btn-sm btn-outline-success">View</button></a>
                                     </div>
                                 </div>
                             </div>
@@ -95,13 +104,15 @@
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="gifs/gifs/2.gif">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                src="gifs/gifs/2.gif">
                             <div class="card-body">
                                 <h5 class="card-title">Ethnographic Observations</h5>
                                 <p class="card-text"></p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <a href="pages/observation.html"><button type="button" class="btn btn-sm btn-outline-success">View</button></a>
+                                        <a href="pages/observation.html"><button type="button"
+                                                class="btn btn-sm btn-outline-success">View</button></a>
                                     </div>
                                 </div>
                             </div>
@@ -109,13 +120,15 @@
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="gifs/gifs/5.gif">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                src="gifs/gifs/5.gif">
                             <div class="card-body">
                                 <h5 class="card-title">Design Qualities in everyday objects</h5>
                                 <p class="card-text"></p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <a href="pages/quality.html"><button type="button" class="btn btn-sm btn-outline-success">View</button></a>
+                                        <a href="pages/quality.html"><button type="button"
+                                                class="btn btn-sm btn-outline-success">View</button></a>
                                     </div>
                                 </div>
                             </div>
@@ -123,13 +136,15 @@
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="gifs/gifs/4.gif">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                src="gifs/gifs/4.gif">
                             <div class="card-body">
                                 <h5 class="card-title">Actor Network Theory</h5>
                                 <p class="card-text"></p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <a href="pages/ant.html"><button type="button" class="btn btn-sm btn-outline-success">View</button></a>
+                                        <a href="pages/ant.html"><button type="button"
+                                                class="btn btn-sm btn-outline-success">View</button></a>
                                     </div>
                                 </div>
                             </div>
@@ -142,15 +157,17 @@
         <div id="contact" class="footer mx-auto p-4">
             <div class="fw-bold fs-4 my-2">Contact Me</div>
             <div class="d-flex flex-row justify-content-between my-4">
-                <a href="https://www.linkedin.com/in/nikhitha-madineni-76a2341b3"><img src="images/linkedin.png" class="icons" alt="" srcset=""></a>
+                <a href="https://www.linkedin.com/in/nikhitha-madineni-76a2341b3"><img src="images/linkedin.png"
+                        class="icons" alt="" srcset=""></a>
                 <a href="tel:+353 899866993"><img src="images/phone.png" class="icons" alt="" srcset=""></a>
-                <a href="mailto:nikhithamadineni2000@gmail.com"><img src="images/gmail.png" class="icons" alt="" srcset=""></a>
+                <a href="mailto:nikhithamadineni2000@gmail.com"><img src="images/gmail.png" class="icons" alt=""
+                        srcset=""></a>
             </div>
             <div class="fw-light my-2">Handcrafted by Nikhitha Madineni ©2022</div>
         </div>
 
     </main>
-
+    <script src="index.js"></script>
 </body>
 
 </html>
